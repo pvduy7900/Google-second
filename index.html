@@ -25,22 +25,24 @@
                 height="300" width="800" />
         </div>
         <br />
-            <input autofocus title="Search"><i class="fas fa-search i-absolute"></i><i class="fas fa-microphone i2"></i></input>
+        <i class="fas fa-search i-absolute"></i>
+        <input autofocus title="Search"></input>
+        <i class="fas fa-microphone i2"></i>
         <br />
         <div class="button-container">
-            <button>Google Search</button>
+            <button onclick="viewResults()">Google Search</button>
             <button>I'm Feeling lucky</button>
         </div>
         <br />
         <span class="language">
             Google offered in:
-            <a class="a1" href="#">
+            <a class="a1-1" href="#">
                 Tiếng Việt
             </a>
-            <a class="a1" href="#">
+            <a class="a1-1" href="#">
                 Français
             </a>
-            <a class="a1" href="#">
+            <a class="a1-1" href="#">
                 中文（繁體）
             </a>
         </span>
@@ -66,6 +68,10 @@
     </footer>
 
 </body>
-
+<script>
+    function viewResults() {
+    window.location.href = "results.html";
+  }
+</script>
 
 </html>

@@ -33,6 +33,17 @@ body {
     cursor: pointer;
   }
   .a1:hover {
+    color: #5d5d5d;
+    text-decoration: underline;
+  }
+  .a1-1 {
+    font-size: small;
+    white-space: nowrap;
+    padding: 0 3px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .a1-1:hover {
     text-decoration: underline;
   }
   i {
@@ -74,6 +85,8 @@ body {
     font-size: 20px;
     box-shadow: none;
     padding-left: 60px;
+    padding-right: 60px;
+
     margin-bottom: 25px;
     border-radius: 25px;
     border: 1px solid rgb(223, 223, 223);
@@ -92,12 +105,12 @@ body {
     /* con chuột di chuyển ngang qua thì cũng thấy nó đang chỉ vao đâu */
   }
   .i-absolute {
-    position: relative;
-    left:40px;
+    position: absolute;
+    margin: 19px 0px 0px 30px;
   }
   .i2 {
-    position: relative;
-    right:40px;
+    position: absolute;
+    margin: 19px 20px 0px -30px;
   }
 .buttons {
   width: 100%;

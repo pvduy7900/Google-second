@@ -1,0 +1,65 @@
+
+
+.firstNav{
+    padding: 0px 30px 4px 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 30px;
+    width: 92px;
+    margin: 10px 40px 0px 0px;
+}
+input {
+    width: 550px;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+  }
+  input:focus {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+    /* con trỏ ra ngoài input thì vẫn thấy dc */
+  }
+  
+  input:hover {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+    /* con chuột di chuyển ngang qua thì cũng thấy nó đang chỉ vao đâu */
+  }
+
+  .voice {
+    position: relative;
+    margin: 19px 20px 0px -80px;
+  }
+  .search {
+    position: relative;
+    margin: 19px 20px 0px 0px;
+  }
+  .nav1-left {
+    display: flex; 
+ }
+ .secondNav {
+     display: flex;
+     justify-content: space-between;
+
+ }
+ a {
+     text-decoration: none;
+     cursor: pointer;
+     margin-right: 4px;
+     color: #5d5d5d;
+ }
+ .menu {
+    position: relative;
+    margin: 13px 20px 0px 0px;
+ }
