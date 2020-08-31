@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+  }
+  
+  .nav {
+    padding: 0px 30px;
+    text-align: right;
+    position: relative;
+    top: 5px;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    margin-left: 20px;
+  }
+  .a1 {
+    font-size: small;
+    white-space: nowrap;
+    padding: 0 3px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .a1:hover {
+    text-decoration: underline;
+  }
+  i {
+    cursor: pointer;
+  }
+
+  .signIn {
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    color:white;
+    font:13px arial,sans-serif;
+    /* font chữ */
+    display: inline-block;
+    /* làm cho border nó vừa với div chứa */
+    line-height: 28px;
+    /* line css */
+    padding: 0 12px;
+    /* padding trái phải thêm 12 */
+    border-radius: 2px;
+    /* viền tròn */
+    font-weight: bold; 
+    /* in đậm */
+    text-decoration: none !important;
+  }
+  section {
+    margin-top:47px ;
+    text-align: center;
+    height: 233px;
+
+  }
+  img {
+    height: 92px;
+    width: 272px;
+    padding-top:109px;
+  }
+  input {
+    width: 550px;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    padding-left: 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+  }
+  input:focus {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+    /* con trỏ ra ngoài input thì vẫn thấy dc */
+  }
+  
+  input:hover {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+    /* con chuột di chuyển ngang qua thì cũng thấy nó đang chỉ vao đâu */
+  }
+  .i-absolute {
+    position: relative;
+    left:40px;
+  }
+  .i2 {
+    position: relative;
+    right:40px;
+  }
+.buttons {
+  width: 100%;
+  margin-top: 5px;
+  box-align: left;
+  display: inline-block;
+}
+
+button {
+  margin: 11px 4px;
+  padding:0px 16px;
+  height: 36px;
+  border: none;
+  font-size: 14px;
+  color: #5d5d5d;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  border: 0.5px solid #bfbfbf;
+  box-shadow: 0px 0.5px 2px 1px rgb(223, 223, 223);
+}
+
+button:visited {
+  color: black;
+  border: 0.5px solid #bfbfbf;
+  box-shadow: 0px 0.5px 2px 1px rgb(128, 204, 255) !important;
+}
+
+.mic {
+  top: 5px;
+  width: 24px;
+  left: -50px;
+  height: 24px;
+  position: relative;
+}
+
+.search {
+  top: 35px;
+  right: 300px;
+  position: relative;
+}
+.language {
+  font-size:small;
+}
+
+footer {
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+footer > div {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+footer * a {
+  margin-left: 25px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.first {
+  text-align: left;
+  padding-left: 27px;
+
+}
+
+.second {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.a2:hover {
+  text-decoration: underline;
+}
